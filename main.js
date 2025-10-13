@@ -1,5 +1,6 @@
 const moves = document.getElementById("moves");
 const container = document.querySelector(".container");
+const instructions = document.querySelector(".container");
 const buttons = document.querySelector(".buttons");
 const startButton = document.getElementById("start-button");
 const nextButton = document.getElementById("next-button");
