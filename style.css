@@ -118,11 +118,18 @@ button {
   padding: 0.5em 2em;
   position: relative;
   margin: 1em;
+  border-radius: 13px 30px/ 23px 12px;
   text-align: center;
   background: hsl(220deg 100% 55%);
   color: #fff;
   font-size: 1.2em;
   z-index: -10;
+}
+
+.timer{
+  font-size: 20px;
+  color: hsl(220deg 100% 55%);
+  font-weight: 700;
 }
 
 #next-button {
@@ -141,6 +148,7 @@ button {
   background: hsl(220deg 100% 55%);
   color: white;
   width: 12rem;
+  margin: 20px;
 }
 
 .game-details {
